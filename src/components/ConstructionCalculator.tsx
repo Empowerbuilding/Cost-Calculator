@@ -219,7 +219,7 @@ export default function ConstructionCalculator() {
   const getTierScheme = (tier: PricingTier) => {
     switch (tier) {
       case 'economy':
-        return { color: 'green', bg: 'green.50' };
+        return { color: 'gold', bg: 'gold.50' };
       case 'standard':
         return { color: 'blue', bg: 'blue.50' };
       case 'luxury':

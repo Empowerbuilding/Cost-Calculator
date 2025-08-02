@@ -111,7 +111,7 @@ export function FeatureComparison() {
                   </Th>
                   <Th 
                     fontSize="sm" 
-                    color="green.600" 
+                    color="gold.600" 
                     textAlign="center"
                     width="140px"
                     px={3}
@@ -173,21 +173,21 @@ export function FeatureComparison() {
                     </Td>
                     <Td textAlign="center" width="140px" px={3} py={2.5}>
                       {feature.economy ? (
-                        <Box as={FaCheck} color="green.500" display="inline" />
+                        <Box as={FaCheck} color="gold.500" display="inline" />
                       ) : (
                         <Box as={FaTimes} color="red.500" display="inline" />
                       )}
                     </Td>
                     <Td textAlign="center" width="140px" px={3} py={2.5}>
                       {feature.standard ? (
-                        <Box as={FaCheck} color="green.500" display="inline" />
+                        <Box as={FaCheck} color="gold.500" display="inline" />
                       ) : (
                         <Box as={FaTimes} color="red.500" display="inline" />
                       )}
                     </Td>
                     <Td textAlign="center" width="140px" px={3} py={2.5}>
                       {feature.luxury ? (
-                        <Box as={FaCheck} color="green.500" display="inline" />
+                        <Box as={FaCheck} color="gold.500" display="inline" />
                       ) : (
                         <Box as={FaTimes} color="red.500" display="inline" />
                       )}

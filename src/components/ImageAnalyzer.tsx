@@ -68,7 +68,7 @@ export function ImageAnalyzer({ onAnalysisComplete }: ImageAnalyzerProps) {
   });
 
   const getQualityBadge = (value: number) => {
-    if (value < 1.0) return { color: 'green', text: 'Economy' };
+    if (value < 1.0) return { color: 'gold', text: 'Economy' };
     if (value > 1.0) return { color: 'purple', text: 'Luxury' };
     return { color: 'blue', text: 'Standard' };
   };
@@ -181,7 +181,7 @@ export function ImageAnalyzer({ onAnalysisComplete }: ImageAnalyzerProps) {
                       p={2}
                       borderRadius="md"
                     >
-                      <ListIcon as={FaCheck} color="green.500" />
+                      <ListIcon as={FaCheck} color="gold.500" />
                       <Text fontWeight="medium" fontSize="sm" color="gray.700" minW="60px">
                         {item.label}:
                       </Text>

@@ -31,16 +31,16 @@ const theme = extendTheme({
   },
   colors: {
     brand: {
-      50: '#E6F7F0',
-      100: '#BCE8D6',
-      200: '#8FD9BC',
-      300: '#61CAA2',
-      400: '#34BB88',
-      500: '#00A870', // Primary brand green
-      600: '#008A5C',
-      700: '#006C48',
-      800: '#004E34',
-      900: '#003020',
+      50: '#FFF7E6',
+      100: '#FFE8B3',
+      200: '#FFD980',
+      300: '#FFCA4D',
+      400: '#FFBB1A',
+      500: '#FFB300', // Primary brand gold
+      600: '#E6A100',
+      700: '#CC8F00',
+      800: '#B37D00',
+      900: '#996B00',
     },
     gray: {
       50: '#F7F7F7',
