@@ -18,7 +18,7 @@ import { FaDollarSign, FaTools, FaUserCog, FaCalendarAlt, FaArrowRight } from 'r
 import { PricingTier, BuilderType } from '../types';
 import { CONTRACTOR_MARKUP } from './CostFactors';
 
-const HUBSPOT_MEETING_URL = 'https://meetings-na2.hubspot.com/larry-madison?uuid=477da47a-4975-40b1-ad7e-87aae01d665e';
+const HUBSPOT_MEETING_URL = 'https://meetings.hubspot.com/larry-madison/barnhaus-introductory-call?uuid=79f93a92-f2ff-4807-9c79-c33682a1731b&__hstc=124330133.6b4e96000c1c288d2c9a4ef948ff3c72.1742747177230.1754012541672.1754078449989.13&__hssc=124330133.1.1754078449989&__hsfp=1913391899';
 
 interface PricingCardProps {
   tier: PricingTier;
